@@ -101,3 +101,19 @@ console.log('--> Ejemplo 5:')
   */
  console.log(...numeros)
  console.log('sumar con spread: ' + sumar(...numeros))
+
+ /**
+  * Ejemplo 6:
+  *
+  * Destructuración
+  *
+  * Se puede destructurar un objeto para obtener sólo los elementos
+  * que se requieran
+  *
+  */
+console.log('--> Ejemplo 6:')
+const punto = {x:10 , y:20, z:30}
+let fun = ({x: puntox, y: puntoy}) => {
+  console.log(`X: ${puntox} - Y: ${puntoy}`)
+}
+fun(punto)

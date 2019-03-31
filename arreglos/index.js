@@ -32,7 +32,7 @@ console.log(z)
 
 // todos loc valores
 console.log('--> Ejemplo 2.b:')
-let [ a, b ] = [7, 8]
+let [ a, b ] = [1, 2]
 console.log(a)
 console.log(b)
 
@@ -43,8 +43,13 @@ let c, d
 console.log(c) //<-- 5
 console.log(d) //<-- undefined
 
-console.log('--> Ejemplo 2.d:')
+console.log('--> Ejemplo 2.d: utilizando spread')
 let [valor1, valor2, ...restoValores] = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 console.log(valor1)
 console.log(valor2)
 console.log(restoValores)
+
+console.log('--> Ejemplo 2.e: Intercambio de valores')
+console.log(`a: ${a}, b: ${b}`); //<-- Es necesario utilizar punto y coma antes de la destructuración. En caso contrario, considera la posición.
+[a, b] = [b, a]
+console.log(`a: ${a}, b: ${b}`)
