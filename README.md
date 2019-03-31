@@ -7,6 +7,13 @@ Revisa los comentarios del código, ejecuta y modifica el código para aprender 
 
 # Ejemplos disponibles
 
+## /scope
+Prueba como funciona el scope en javascript
+
+```bash
+node scope
+```
+
 ## /async-await
 
 **Recomendación:** Revisa este video para aprender un poco acerca de esta funcionalidad.
@@ -17,6 +24,7 @@ Revisa pasa a paso cada uno de los ejemplos para descubrir como funciona la func
 ```bash
 node async-await
 ```
+
 **Nota:** Es posible que debas aprender un poco como funcionan las promesas pero no es inidispensable. Incluso podrías pobrar como funcionan las promesas en este código de ejemplo.
 
 
