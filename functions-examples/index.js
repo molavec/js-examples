@@ -111,9 +111,28 @@ console.log('--> Ejemplo 5:')
   * que se requieran
   *
   */
-console.log('--> Ejemplo 6:')
+console.log('--> Ejemplo 6: Destructuring')
 const punto = {x:10 , y:20, z:30}
 let fun = ({x: puntox, y: puntoy}) => {
   console.log(`X: ${puntox} - Y: ${puntoy}`)
 }
 fun(punto)
+
+/**
+  * Ejemplo 6:
+  *
+  * Parámetros por defecto
+  *
+  * Se puede destructurar un objeto para obtener sólo los elementos
+  * que se requieran
+  *
+  */
+ console.log('--> Ejemplo 7: Parámetros por defecto')
+
+ let fun2 = (name='Anónimo') => {
+   console.log(`Hola ${name}!`)
+ }
+ fun2(5)
+ fun2('Miguel')
+ fun2()
+

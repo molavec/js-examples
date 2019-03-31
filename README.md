@@ -21,6 +21,7 @@ Ejemplos de formas de definir funciones
 node functions-examples
 ```
 
+
 ## /arreglos
 Ejemplos para el manejo con arreglos
 
@@ -49,6 +50,16 @@ node async-await
 
 **Nota:** Es posible que debas aprender un poco como funcionan las promesas pero no es inidispensable. Incluso podrías pobrar como funcionan las promesas en este código de ejemplo.
 
+
+## /generator-iterator
+
+**Recomendación:** Revisa este artículo para aprender un poco acerca de esta funcionalidad.
+[A Simple Guide to Understanding Javascript (ES6) Generators](https://medium.com/dailyjs/a-simple-guide-to-understanding-javascript-es6-generators-d1c350551950)
+Ejemplos de de generadores iteradores
+
+```bash
+node generator-iterator
+```
 
 ## /stream
 
