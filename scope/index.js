@@ -1,7 +1,7 @@
 /**
  * Ejemplo 01:
  *
- * Utiliza 'var'
+ * Scope de una variable dependiendo del lugar de la definición
  */
 const example01 = () => {
 
@@ -28,25 +28,51 @@ example01()
 /**
  * Ejemplo 2:
  *
- * Utiliza 'let'
+ * Diferencias entre var y let
+ * var: scope a nivel de función
+ * let: scope a nuvel de bloque
  */
 const example02 = () => {
 
-  let var1 = 'let - global'
-
-  function fun01() {
-    let var1 = 'let - local funcion 01'
-    console.log(var1)
+  if( 3 < 5 ){
+    var x = 7
   }
+  console.log(x) // <-- Es posible porque está a nivel de la función.
 
-  function fun02() {
-    var1 = 'let - local funcion 02'
-    console.log(var1)
+  if( 3 < 5 ){
+    let y = 7
   }
+  //console.log(y) // <-- aparecerá como que no está definida
 
-  fun01()
-  //fun02()
-  console.log(var1)
+  // var -> tiene comportamiento de hoisting
+  // let -> no tiene comportamiento de hoisting
+  z = 4
+  console.log(z)
+  var z
 
+  let w
+  w = 8
+  console.log(w)
 }
 example02()
+
+
+/**
+ * Ejemplo 2:
+ *
+ * Utiliza 'const'
+ */
+const example03 = () => {
+
+  // referencia constantes, no valores inmutables
+  const x = {
+    a: 5,
+    b: 20
+  }
+  // x = 6 // <-- NO ES POSIBLE
+  console.log(x)
+  x.a = 6 // <-- Sí ES POSIBLE
+  console.log(x)
+
+}
+example03()

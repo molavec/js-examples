@@ -14,6 +14,13 @@ Prueba como funciona el scope en javascript
 node scope
 ```
 
+## /functions
+Ejemplos de formas de definir funciones
+
+```bash
+node functions
+```
+
 ## /async-await
 
 **Recomendación:** Revisa este video para aprender un poco acerca de esta funcionalidad.
