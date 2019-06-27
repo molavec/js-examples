@@ -7,6 +7,13 @@ Revisa los comentarios del código, ejecuta y modifica el código para aprender 
 
 # Ejemplos disponibles
 
+## /arguments-from-terminal
+Prueba como pasar argumentos desde el terminal.
+
+```bash
+node arguments-from-terminal one two=three four
+```
+
 ## /scope
 Prueba como funciona el scope en javascript
 
