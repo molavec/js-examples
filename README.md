@@ -71,3 +71,10 @@ Revisa pasa a paso cada uno de los ejemplos para descubrir como funcionan los st
 ```bash
 node stream
 ```
+
+# ¿Te sientes con ganas de más?
+
+Aquí puedes encontrar otras fuentes interesantes de información y herramientas.
+
+Bibliotecas de módulos y recursos:
+https://github.com/sindresorhus/awesome-nodejs
