@@ -79,6 +79,11 @@ Revisa pasa a paso cada uno de los ejemplos para descubrir como funcionan los st
 node stream
 ```
 
+## request
+Utiliza algunos ejemplos de librería para hacer llamados a APIs de otros sitios.
+
+Basado en: [5 Ways to Make HTTP Requests in Node.js](https://www.twilio.com/blog/2017/08/http-requests-in-node-js.html)
+
 # ¿Te sientes con ganas de más?
 
 Aquí puedes encontrar otras fuentes interesantes de información y herramientas.
