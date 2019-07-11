@@ -23,6 +23,8 @@ Estos son los ejemplos que hay disponibles:
 
 ```bash
 yarn argument:example1 # Argumentos desde terminal
+yarn array:example1 # Operador Spread
+yarn array:example2 #
 yarn array
 yarn class
 yarn function

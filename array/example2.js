@@ -1,20 +1,13 @@
-
-let arr = [1,2,3,4,5,6,7]
-
 /**
- * Ejemplo 1:
+ * example2: [título del ejemplo]
  *
- * Operador Spread
+ * Description:
+ * [Replace this with description ]
  *
- * Permite enviar los objetos de un arreglo como su fueran elementos
- * independientes.
+ * How execute:
+ * $[example comand herr]
  *
- * En el caso de arreglos, sirve para añadir elementos a un arreglo
  */
-
-console.log('--> Ejemplo 1:')
-let spreadArr = [0, ...arr, 10]
-console.log(spreadArr)
 
 
 /**
@@ -22,7 +15,9 @@ console.log(spreadArr)
  *
  * Destructuring
  */
-console.log('--> Ejemplo 2: Destructuración')
+
+let arr = [1,2,3,4,5,6,7]
+
 console.log('--> Ejemplo 2.a:')
 const punto =  [10, 20, 15]
 let [ x, y, z ] = punto
