@@ -5,7 +5,7 @@
  * Imprime argumentos desde el terminal utilizando process.
  *
  * How to execute:
- * $ node ejemplo1 hello world!
+ * $ node example1 hello world!
  * $ yarn arguments:example1
  *
  */

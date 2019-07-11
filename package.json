@@ -4,7 +4,8 @@
   "license": "MIT",
   "scripts": {
     "argument:example1": "node argument/example1 hello world!",
-    "array": "node array",
+    "array:example1": "node array/example1",
+    "array:example2": "node array/example2",
     "class": "node class",
     "function": "node function",
     "iterator": "node iterator",
