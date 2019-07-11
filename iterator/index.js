@@ -3,6 +3,10 @@
   *
   * Generadores e Iteradores
   *
+**Recomendación:** Revisa este artículo para aprender un poco acerca de esta funcionalidad.
+[A Simple Guide to Understanding Javascript (ES6) Generators](https://medium.com/dailyjs/a-simple-guide-to-understanding-javascript-es6-generators-d1c350551950)
+
+  *
   */
 
  console.log('--> Ejemplo 1: Generadores e Iteradores')

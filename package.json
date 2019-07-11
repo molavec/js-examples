@@ -1,14 +1,16 @@
 {
   "name": "js-examples",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "1.1.0",
   "license": "MIT",
   "scripts": {
-    "scope": "node scope",
-    "functions-examples": "node functions-examples",
-    "async-await": "node async-await",
+    "argument:example1": "node argument/example1 hello world!",
+    "array": "node array",
+    "class": "node class",
+    "function": "node function",
+    "iterator": "node iterator",
+    "object": "node object",
+    "promise": "node promise",
     "stream": "node stream",
-    "arreglos": "node arreglos",
-    "objetos": "node objetos"
+    "variable": "node variable"
   }
 }

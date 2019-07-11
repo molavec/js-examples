@@ -17,6 +17,8 @@ const buildin = require('./buildin')
  * Se utliza un stream para ir llenando el archivo
  * NOTA: Puedes comentar esta función cuando lo hayas ejecutado una vez.
  *
+ * **Recomendación:** Revisa este artículo para aprender un poco acerca de esta funcionalidad.
+[Node.js Streams: Everything you need to know](https://medium.freecodecamp.org/node-js-streams-everything-you-need-to-know-c9141306be93)
  *
  */
 console.log("--> Ejemplo 1: (Debes descomentar para probar)")
