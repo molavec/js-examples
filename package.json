@@ -14,6 +14,7 @@
     "class": "node class",
     "function": "node function",
     "iterator": "node iterator",
+    "jest:example1": "jest jest/example1.test.js",
     "object": "node object",
     "promise": "node promise",
     "stream": "node stream",
