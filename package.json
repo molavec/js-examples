@@ -3,7 +3,8 @@
   "version": "1.1.0",
   "license": "MIT",
   "scripts": {
-    "argument:example1": "node argument/example1 hello world!",
+    "argument:example1": "node argument/example1 Hello World!",
+    "argument:example2": "node argument/example2 Hello World!",
     "array:example1": "node array/example1",
     "array:example2": "node array/example2",
     "array:example3": "node array/example3",
@@ -16,6 +17,10 @@
     "object": "node object",
     "promise": "node promise",
     "stream": "node stream",
-    "variable": "node variable"
+    "variable": "node variable",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0"
   }
 }
