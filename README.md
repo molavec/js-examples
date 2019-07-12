@@ -41,8 +41,12 @@ yarn stream
 yarn variable
 ```
 
+## Como añadir un nuevo ejemplo
 
-# ¿Te sientes con ganas de más?
+Puedes revisar el wiki [Como añadir un nuevo script de ejemplo](https://github.com/molavec/js-examples/wiki/Como-añadir-un-nuevo-script-de-ejemplo) para ver como añadir un nuevo script.
+
+
+## ¿Te sientes con ganas de más?
 
 Aquí puedes encontrar otras fuentes interesantes de información y herramientas.
 
