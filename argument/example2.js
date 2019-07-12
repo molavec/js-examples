@@ -1,5 +1,5 @@
 /**
- * example1: Parámetros desde el terminal
+ * example2: Parámetros desde el terminal
  *
  * Description:
  * Imprime un string que contiene sólo los parámetros ingresados desde el terminal.
