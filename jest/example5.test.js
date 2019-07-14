@@ -11,12 +11,13 @@
  *
  */
 
-class ConfigError extends Error {
-
+/**
+ * Clase para enviar un Error
+ */
+ class ConfigError extends Error {
   constructor(msg){
     super(msg)
   }
-
 }
 
 function compileAndroidCode() {

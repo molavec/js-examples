@@ -44,7 +44,7 @@ test('Test Promesa que retorna Mr. Peanut Butter (.then)', () => {
 
 /**
  *
- * Método 2: utiliza '.resolve'
+ * Método 2: utiliza '.resolves'
  *
  * Al igual que el caso anterior, recordar utilizar el 'return'. En caso contrario,
  * el test se completará antes de que la promesa se resuelva.
