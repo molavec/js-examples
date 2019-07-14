@@ -1,5 +1,5 @@
 /**
- * example2: number matchers
+ * example 2: number matchers
  *
  * Description:
  * Ejemplos de matcher con números

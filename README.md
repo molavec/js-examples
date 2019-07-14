@@ -34,8 +34,12 @@ yarn array
 yarn class
 yarn function
 yarn iterator
-yarn jest:example1 # matcher con strings
-yarn jest:example1 # matcher con números
+yarn jest:example1 # strings matchers
+yarn jest:example2 # number matchers
+yarn jest:example3 # boolean matchers
+yarn jest:example4 # array matchers
+yarn jest:example5 # exceptions
+yarn jest:example6 # array matchers
 yarn object
 yarn promise
 yarn stream

@@ -1,5 +1,5 @@
 /**
- * example1: string matchers
+ * example 1: string matchers
  *
  * Description:
  * Ejemplos de matcher con strings
