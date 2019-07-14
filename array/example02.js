@@ -8,7 +8,7 @@
  * https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Operadores/Destructuring_assignment
  *
  * How execute:
- * $ yarn array:example2
+ * $ yarn array:example02
  *
  */
 

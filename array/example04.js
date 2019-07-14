@@ -10,7 +10,7 @@
  * https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Operadores/Destructuring_assignment
  *
  * How execute:
- * $ yarn array:example4
+ * $ yarn array:example04
  *
  */
 

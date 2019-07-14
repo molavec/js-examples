@@ -6,7 +6,7 @@
  * https://stackoverflow.com/questions/55441601/why-destructuring-is-undefined-when-i-dont-use-a-semicolon-at-end-line
  *
  * How execute:
- * $ yarn array:example3
+ * $ yarn array:example03
  *
  */
 
