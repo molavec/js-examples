@@ -8,8 +8,8 @@
  *
  *
  * How execute:
- * $ jest jest/example7.test.js
- * $ yarn jest:example7
+ * $ jest jest/example07.test.js
+ * $ yarn jest:example07
  *
  */
 
