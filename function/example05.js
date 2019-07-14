@@ -32,3 +32,7 @@ console.log('--> Ejemplo 5:')
   */
  console.log(...numeros)
  console.log('sumar con spread: ' + sumar(...numeros))
+
+
+ 
+ 
