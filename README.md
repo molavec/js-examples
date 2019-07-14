@@ -23,8 +23,11 @@ Estos son los ejemplos que hay disponibles:
 
 ```bash
 yarn argument:example1 # Argumentos desde terminal
-yarn array:example1 # Operador Spread
-yarn array:example2 #
+yarn array:example01 # Operador Spread
+yarn array:example02 # Destructuring (extraer valores de un arreglo a variables)
+yarn array:example03 # Destructuring con y sin 'punto y coma' (;)
+yarn array:example04 # Destructuring utilizando operador spread
+yarn array:example05 # Destructuring para reordenar
 yarn array
 yarn class
 yarn function

@@ -1,23 +1,21 @@
 /**
- * example4: Destructuring / Desestructuración
+ * example 4: Destructuring utilizando operador spread
  *
  * Description:
- * Permite extraer valores de arreglos definidos,
+ * Permite copiar valores de arreglos definidos a variables
  * en el mismo momento de la declaración,
- * hacia uno nuevo con la misma estructura
+ * aprovechando la propiedad 'Spread'.
+ * (el operador spread debe ser el último elemento)
+ *
+ * https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Operadores/Destructuring_assignment
  *
  * How execute:
  * $ yarn array:example4
  *
  */
 
-
-
-console.log('--> Ejemplo 4:')
-let c, d
-[ c, ] = [3, 4]; //<-- Es necesario el punto y coma
-[ , d ] = [5, 6]
-console.log(c) //<-- 3
-console.log(d) //<-- 6
-
-
+let [ valor1, valor2, ...restoValores] = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+//let [ valor1, valor2, ...restoValores] = 'hola mundo'
+console.log(valor1)
+console.log(valor2)
+console.log(restoValores)
