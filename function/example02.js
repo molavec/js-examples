@@ -1,13 +1,15 @@
 /**
- * example02: Declarar función
+ * example02: Function Expression
  *
  * Description:
- * Cuando se declara una función NO se puede utilizar antes
+ * Cuando se define una función mendiante expresión NO se puede
+ * ejecutar antes de la expresión
+ * https://medium.com/@mandeep1012/function-declarations-vs-function-expressions-b43646042052
  *
  * How execute:
  * $ yarn function:example02
  */
 
-console.log('--> Ejemplo 2:')
-const mult = (a, b) => a * b
+
+const mult = (a, b) => a * b // <-- Se debe declarar la función antes de utilizarla.
 console.log(mult(2,2))  // <-- No se aplica hoisting

@@ -1,17 +1,20 @@
 /**
  * example01: Declarar función
  *
- * Description:
- * Cuando se declara una función SÍ se puede utilizar antes
+ * Description: Function Declataration
+ *
+ * Cuando se declara una función (con 'function') se
+ * puede utilizar antes de la declaración ya que se
+ * el concepto de hoisting.
+ * https://developer.mozilla.org/es/docs/Glossary/Hoisting
+ * https://medium.com/@mandeep1012/function-declarations-vs-function-expressions-b43646042052
  *
  * How execute:
  * $ yarn function:example01
  */
 
-
-console.log('--> Ejemplo 1:')
 console.log(sum(1,1)) // <-- Se aplica hoisting
 
-function  sum(a, b) {
+function sum(a, b) {
   return a + b
 }

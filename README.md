@@ -30,7 +30,14 @@ yarn array:example04 # Destructuring utilizando operador spread
 yarn array:example05 # Destructuring para reordenar
 yarn array
 yarn class
-yarn function
+yarn function:example01 # Function Declataration
+yarn function:example02 # Function Expression
+yarn function:example03 #
+yarn function:example04 #
+yarn function:example05 #
+yarn function:example06 #
+yarn function:example07 #
+yarn function:example08 #
 yarn iterator
 yarn object
 yarn promise
