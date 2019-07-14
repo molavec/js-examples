@@ -35,6 +35,7 @@ yarn class
 yarn function
 yarn iterator
 yarn jest:example1 # matcher con strings
+yarn jest:example1 # matcher con números
 yarn object
 yarn promise
 yarn stream
