@@ -23,7 +23,15 @@
     "function:example08": "node function/example08",
     "iterator:example1": "node iterator/example1",
     "object:example1": "node object/example1",
-    "promise": "node promise",
+    "promise:example01": "node promise/example01",
+    "promise:example02": "node promise/example02",
+    "promise:example03": "node promise/example03",
+    "promise:example04": "node promise/example04",
+    "promise:example05": "node promise/example05",
+    "promise:example06": "node promise/example06",
+    "promise:example07": "node promise/example07",
+    "promise:example08": "node promise/example08",
+    "promise:example09": "node promise/example09",
     "stream": "node stream",
     "variable": "node variable"
   }
