@@ -1,11 +1,8 @@
 /**
- * example1: Imprime un saludo
+ * Genera un string con un saludo
  *
- * Description:
- * Esta es una función utilizada por lo test de ejemplo
- *
+ * @param {*} name Nombre del usuario a saludar
  */
-
 const greetings = (name) => ( `Hello ${name}!` )
 
 module.exports =  greetings

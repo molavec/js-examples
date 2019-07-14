@@ -1,11 +1,11 @@
 /**
- * example1: matcher con strings
+ * example1: string matchers
  *
  * Description:
- * Utiliza distintos matchers que se pueden utilizar con strings
+ * Ejemplos de matcher con strings
  *
  * How execute:
- * $ npx jest example1.test.js
+ * $ jest jest/example1.test.js
  * $ yarn jest:example1
  *
  */
@@ -18,4 +18,8 @@ test('jest:example1 - Prueba matcher con string', () => {
 
 test('jest:example1 - Prueba matcher con string utilizando regexp', () => {
   expect(greetings('Miguel')).toMatch(/Miguel/);
+});
+
+test('jest:example1 - Prueba matcher con string utilizando regexp', () => {
+  expect(greetings('Miguel')).not.toMatch(/Hola/);
 });
