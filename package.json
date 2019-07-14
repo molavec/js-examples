@@ -20,6 +20,8 @@
     "jest:example4": "jest jest/example4.test.js",
     "jest:example5": "jest jest/example5.test.js",
     "jest:example6": "jest jest/example6.test.js",
+    "jest:example7": "jest jest/example7.test.js",
+    "jest:example8": "jest jest/example8.test.js",
     "object": "node object",
     "promise": "node promise",
     "stream": "node stream",

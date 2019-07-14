@@ -1,22 +1,22 @@
 /**
- * example 6: callbacks
+ * example 8: async/wait
  *
  * Description:
- * Ejemplos para funciones asincrónicas que utilizan un callcack
+ * Ejemplos para funciones asincrónicas con async/await
  * https://jestjs.io/docs/en/asynchronous
  *
  *
  *
  * How execute:
- * $ jest jest/example6.test.js
- * $ yarn jest:example6
+ * $ jest jest/example8.test.js
+ * $ yarn jest:example8
  *
  */
 
 /**
  * Espera 1 segundo y le pasa el texto 'peanut butter' a la función callback que es pasa como argumento.
  *
- * @param {Function} callback Función que recibirá como argumento el texto 'peanut butter'
+ * @param {*} callback Función que recibirá como argumento el texto 'peanut butter'
  */
 let fetchText = (callback) => {
   setTimeout(() => {

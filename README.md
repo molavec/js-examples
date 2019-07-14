@@ -39,7 +39,9 @@ yarn jest:example2 # number matchers
 yarn jest:example3 # boolean matchers
 yarn jest:example4 # array matchers
 yarn jest:example5 # exceptions
-yarn jest:example6 # array matchers
+yarn jest:example6 # callbacks
+yarn jest:example7 # async promises
+yarn jest:example8 # async/wait
 yarn object
 yarn promise
 yarn stream
