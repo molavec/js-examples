@@ -62,14 +62,26 @@ function distintoA(a,b) {
   return a!=b
 }
 
+function mayorOIgual(a,b) {
+  return a>=b
+}
+
+function menorOIgual(a,b) {
+  return a<=b
+}
+
 console.log(mayorQue(numberOne, numberTwo));
 console.log(menorQue(numberOne, numberTwo));
 console.log(igualA(numberOne, numberTwo));
 console.log(distintoA(numberOne, numberTwo));
+console.log(mayorOIgual(numberOne, numberTwo));
+console.log(menorOIgual(numberOne, numberTwo));
 
 /*
 result = numberOne > numberTwo;
 result = numberOne < numberTwo;
 result = numberOne == numberTwo;
 result = numberOne != numberTwo;
+result = numberOne <= numberTwo;
+result = numberOne >= numberTwo;
 */
