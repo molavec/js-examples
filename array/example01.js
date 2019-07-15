@@ -8,7 +8,7 @@
  *
  * How execute:
  * $ node example1
- * $ yarn array:example1
+ * $ yarn array:example01
  */
 
 let arr = [1,2,3,4,5,6,7]
