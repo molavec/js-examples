@@ -8,7 +8,7 @@
  *
  *
  * How execute:
- * $ jest jest/example06.test.js
+ * $ npx jest jest/example06.test.js
  * $ yarn jest:example06
  *
  */

@@ -6,7 +6,7 @@
  * https://jestjs.io/docs/en/using-matchers
  *
  * How execute:
- * $ jest jest/example01.test.js
+ * $ npx jest jest/example01.test.js
  * $ yarn jest:example01
  *
  */

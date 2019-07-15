@@ -6,7 +6,7 @@
  * afterEach - Repite una configuración después de cada test
  *
  * How execute:
- * $ jest jest/example09.test.js
+ * $ npx jest jest/example09.test.js
  * $ yarn jest:example09
  *
  */

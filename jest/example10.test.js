@@ -1,13 +1,13 @@
 /**
- * example 9: One-Time Setup
+ * example 10: One-Time Setup
  *
  * Description:
  * beforeAll - Ejecuta una vez configuración antes de ejecutar cualquier test
  * afterAll - Ejecuta una vez configuración después de ejecutar todos los test
  *
  * How execute:
- * $ jest jest/example09.test.js
- * $ yarn jest:example09
+ * $ npx jest jest/example10.test.js
+ * $ yarn jest:example10
  *
  */
 
