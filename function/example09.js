@@ -66,3 +66,10 @@ console.log(mayorQue(numberOne, numberTwo));
 console.log(menorQue(numberOne, numberTwo));
 console.log(igualA(numberOne, numberTwo));
 console.log(distintoA(numberOne, numberTwo));
+
+/*
+result = numberOne > numberTwo;
+result = numberOne < numberTwo;
+result = numberOne == numberTwo;
+result = numberOne != numberTwo;
+*/
