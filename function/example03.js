@@ -1,17 +1,15 @@
 /**
- * example03: Declarar función
+ * example03: Función como método de un objeto
  *
  * Description:
  * Función como método
  * TODO: Explicar hacia adonde apunta el this del arrow function
- * 
+ *
  *
  * How execute:
  * $ yarn function:example03
  */
 
-
-console.log('--> Ejemplo 3:')
 const player = {
   name: 'Juan',
   sayHi: function() {

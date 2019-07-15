@@ -12,4 +12,6 @@
 
 
 const mult = (a, b) => a * b // <-- Se debe declarar la función antes de utilizarla.
+
+console.log(mult)
 console.log(mult(2,2))  // <-- No se aplica hoisting
