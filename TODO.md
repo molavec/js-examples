@@ -2,13 +2,7 @@
 
 En este archivo puedes insertar todas las ideas de mejora que se te vengan en la cabeza.
 
-
-* Replantear redistrubución de los ejemplos en distitos archivos
-
-* Añadir en el comentario una guía de como ejecutar
-
 * Automatizar la documentación del archivo Readme.md a partir de los comentarios sobre cada función.
-
 
 ## request
 Utiliza algunos ejemplos de librería para hacer llamados a APIs de otros sitios.

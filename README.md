@@ -23,20 +23,37 @@ Estos son los ejemplos que hay disponibles:
 
 ```bash
 yarn argument:example1 # Argumentos desde terminal
+yarn argument:example2 # Parámetros desde el terminal
 yarn array:example1 # Operador Spread
-yarn array:example2 #
+yarn array:example2 # Destructuring / Desestructuración
+yarn array:example3 # Destructuring / Desestructuración
+yarn array:example4 # Destructuring / Desestructuración
+yarn array:example5 # Destructuring / Desestructuración
+yarn array:example6 # Destructuring / Desestructuración
 yarn array
 yarn class
 yarn function
 yarn iterator
+yarn jest:example1 # strings matchers
+yarn jest:example2 # number matchers
+yarn jest:example3 # boolean matchers
+yarn jest:example4 # array matchers
+yarn jest:example5 # exceptions
+yarn jest:example6 # callbacks
+yarn jest:example7 # async promises
+yarn jest:example8 # async/wait
 yarn object
 yarn promise
 yarn stream
 yarn variable
 ```
 
+## Como añadir un nuevo ejemplo
 
-# ¿Te sientes con ganas de más?
+Puedes revisar el wiki [Como añadir un nuevo script de ejemplo](https://github.com/molavec/js-examples/wiki/Como-añadir-un-nuevo-script-de-ejemplo) para ver como añadir un nuevo script.
+
+
+## ¿Te sientes con ganas de más?
 
 Aquí puedes encontrar otras fuentes interesantes de información y herramientas.
 
