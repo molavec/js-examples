@@ -10,7 +10,8 @@
  * el campo 'nombre' de la misma clase.
  *
  * How execute:
- * $ yarn class:example1
+ * $ node class/example03
+ * $ yarn class:example03
  */
 
 console.log('--> Ejemplo 1:')

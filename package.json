@@ -10,6 +10,8 @@
     "array:example04": "node array/example04",
     "array:example05": "node array/example05",
     "class:example01": "node class/example01",
+    "class:example02": "node class/example02",
+    "class:example03": "node class/example03",
     "class": "node class",
     "function": "node function",
     "function:example01": "node function/example01",
