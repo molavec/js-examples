@@ -4,15 +4,18 @@
   "license": "MIT",
   "scripts": {
     "argument:example1": "node argument/example1 hello world!",
+    
     "array:example01": "node array/example01",
     "array:example02": "node array/example02",
     "array:example03": "node array/example03",
     "array:example04": "node array/example04",
     "array:example05": "node array/example05",
+
     "class:example01": "node class/example01",
     "class:example02": "node class/example02",
     "class:example03": "node class/example03",
     "class": "node class",
+
     "function": "node function",
     "function:example01": "node function/example01",
     "function:example02": "node function/example02",
@@ -24,10 +27,13 @@
     "function:example08": "node function/example08",
     "function:example09": "node function/example09",
     "function:example10": "node function/example10",
+
     "iterator:example1": "node iterator/example1",
     "iterator:example01": "node iterator/example01",
     "iterator:example02": "node iterator/example02",
+
     "object:example1": "node object/example1",
+
     "promise:example01": "node promise/example01",
     "promise:example02": "node promise/example02",
     "promise:example03": "node promise/example03",
@@ -37,7 +43,9 @@
     "promise:example07": "node promise/example07",
     "promise:example08": "node promise/example08",
     "promise:example09": "node promise/example09",
+    
     "stream": "node stream",
+    "variable:example01": "node variable/example01",
     "variable": "node variable"
   }
 }
