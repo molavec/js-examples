@@ -84,7 +84,8 @@ result = numberOne == numberTwo;
 result = numberOne != numberTwo;
 result = numberOne <= numberTwo;
 result = numberOne >= numberTwo;
-*/
+
+
  * example 09: Invocación de Función anónima
  *
  * Description:
