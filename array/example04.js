@@ -1,5 +1,5 @@
 /**
- * example 4: Destructuring utilizando operador spread
+ * example 4: Destructuring utilizando operador rest
  *
  * Description:
  * Permite copiar valores de arreglos definidos a variables

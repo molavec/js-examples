@@ -1,5 +1,5 @@
 /**
- * example 2: Destructuring (extraer valores de un arreglo a variables)
+ * example 2: Destructuring  arreglo (extraer valores de un arreglo a variables)
  *
  * Description:
  * Se utiliza destructiring para guardar los valores de un arreglo

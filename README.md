@@ -26,11 +26,20 @@ yarn argument:example1 # Argumentos desde terminal
 yarn array:example01 # Operador Spread
 yarn array:example02 # Destructuring (extraer valores de un arreglo a variables)
 yarn array:example03 # Destructuring con y sin 'punto y coma' (;)
-yarn array:example04 # Destructuring utilizando operador spread
+yarn array:example04 # Destructuring utilizando operador rest
 yarn array:example05 # Destructuring para reordenar
 yarn array
 yarn class
-yarn function
+yarn function:example01 # Function Declataration
+yarn function:example02 # Function Expression
+yarn function:example03 # Función como método de un objeto
+yarn function:example04 # Operador rest
+yarn function:example05 # Operador spread (Caso especial)
+yarn function:example06 # Destructuración de objetos
+yarn function:example07 # Parámetros por defecto
+yarn function:example08 # Short Circuit
+yarn function:example09 # Invocación de Función anónima
+yarn function:example10 # Declaración de un callback
 yarn iterator
 yarn object
 yarn promise

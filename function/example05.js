@@ -1,5 +1,5 @@
- /**
- * example05: Operador spread
+/**
+ * example05: Operador spread (Caso especial)
  *
  * Description:
  * Permite enviar los objetos de un arreglo como su fueran elementos
@@ -11,8 +11,24 @@
  * $ yarn function:example05
  */
 
-console.log('--> Ejemplo 5:')
- let numeros = [1, 2, 3]
+/**
+ * Suma todos los argumentos ingresados como parámetros
+ *
+ * @param  {...any} valores valor a ser sumados
+ */
+const sumar = (...valores) => {
+  let resultado = 0
+
+  valores.forEach((valor) => {
+    //console.log(valor)
+    resultado += valor
+  })
+
+   //console.log(valores) //<-- Entrega los valores como un arreglo
+  return resultado
+}
+
+let numeros = [1, 2, 3]
 
  /**
   * En este caso se entrega a la función todo el arreglo y como el
@@ -20,7 +36,7 @@ console.log('--> Ejemplo 5:')
   * arreglo como el elemento 0 del parémetro 'valores'.
   * Luego, se suma todo el objeto arreglo a 0 por lo que javascript
   * lo considera lo considera como una concatenación y tiene como
-  * resultado "01,2,3"
+  * resultado "0,1,2,3"
   */
  console.log(numeros)
  console.log('sumar sin spread: ' + sumar(numeros))
@@ -32,7 +48,3 @@ console.log('--> Ejemplo 5:')
   */
  console.log(...numeros)
  console.log('sumar con spread: ' + sumar(...numeros))
-
-
- 
- 
