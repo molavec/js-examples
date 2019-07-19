@@ -1,4 +1,4 @@
-
+const { normalTask, delayTask, callbackTask, callbackDelayTask, asyncTaskPromise, asyncTaskAwait } = require('./tasks')
 /**
  * Ejemplo 7:
  *
