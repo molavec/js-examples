@@ -21,3 +21,5 @@ function cinco(...meses){
     }
     
 }
+
+cinco(...meses);
