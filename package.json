@@ -24,6 +24,7 @@
     "function:example10": "node function/example10",
     "iterator:example1": "node iterator/example1",
     "iterator:example01": "node iterator/example01",
+    "iterator:example02": "node iterator/example02",
     "object:example1": "node object/example1",
     "promise:example01": "node promise/example01",
     "promise:example02": "node promise/example02",
