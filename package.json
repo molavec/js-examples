@@ -27,6 +27,7 @@
     "function:example08": "node function/example08",
     "function:example09": "node function/example09",
     "function:example10": "node function/example10",
+    "function:example11": "node function/example11",
 
     "iterator:example1": "node iterator/example1",
     "iterator:example01": "node iterator/example01",

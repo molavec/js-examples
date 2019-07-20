@@ -7,6 +7,7 @@
  * Sirve para ahorrarse un 'if' en casos de valores por defecto.
  *
  * How execute:
+ * $ node function/example08
  * $ yarn function:example08
  */
 

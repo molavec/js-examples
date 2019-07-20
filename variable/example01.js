@@ -31,16 +31,18 @@ uno++;
 var uno = 19;
 var dos = 19;
 
-console.log('(uno > dos)')
+console.log('(uno > dos) ---->uno=19; dos=19; // <, >, <=, >=, ==, !=')
 console.log(uno > dos); // <, >, <=, >=, ==, !=
 /**
  *  y = &&
  *  o = ||
  *  negación = !
  * 
-
-console.log( !(uno==20) );
 */
+
+console.log( '!(uno==20) -----> uno=19 ----> y = &&, o = ||, negación = !' );
+console.log( !(uno==20) );
+
 /*
 var uno = 30;
 // uno = uno - 20;

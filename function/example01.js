@@ -10,6 +10,7 @@
  * https://medium.com/@mandeep1012/function-declarations-vs-function-expressions-b43646042052
  *
  * How execute:
+ * $ node function/example01
  * $ yarn function:example01
  */
 

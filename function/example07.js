@@ -5,6 +5,7 @@
  * Se puede definir parámetros por defecto.
  *
  * How execute:
+ * $ node function/example07
  * $ yarn function:example07
  */
 

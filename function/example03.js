@@ -7,6 +7,7 @@
  *
  *
  * How execute:
+ * $ node function/example03
  * $ yarn function:example03
  */
 
@@ -18,7 +19,7 @@ const player = {
     console.log(this)
   },
   sayHi2: () => {
-    name = "NACHO"
+    // name = "NACHO"
     console.log(`Hola, mi nombre es ${this.name}.`)
     console.log("this del función flecha =>")
     console.log(this)
@@ -26,7 +27,7 @@ const player = {
 }
 
 player.sayHi() // <-- Funciona
-player.sayHi2() // <-- No funciona
+player.sayHi2() // <-- No funciona con this
 
 //player.name = 'Antonio'
 //player.sayHi()

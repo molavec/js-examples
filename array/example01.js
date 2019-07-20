@@ -7,7 +7,7 @@
  * En el caso de arreglos, sirve para añadir elementos a un arreglo
  *
  * How execute:
- * $ node example1
+ * $ node array/example01
  * $ yarn array:example01
  */
 

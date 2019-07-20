@@ -5,6 +5,7 @@
  * Funcióm que recibe otra función como argumento.
  *
  * How execute:
+ * $ node function/example10
  * $ yarn function:example10
  */
 
