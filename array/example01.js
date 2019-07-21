@@ -7,11 +7,11 @@
  * En el caso de arreglos, sirve para añadir elementos a un arreglo
  *
  * How execute:
- * $ node example1
+ * $ node array/example01
  * $ yarn array:example01
  */
 
 let arr = [1,2,3,4,5,6,7]
-let spreadArr = [0, ...arr, 10]
+let spreadArr = [0, ...arr, 8]
 console.log(spreadArr)
 

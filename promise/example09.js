@@ -1,3 +1,4 @@
+const { normalTask, delayTask, callbackTask, callbackDelayTask, asyncTaskPromise, asyncTaskAwait } = require('./tasks')
 /**
  * Ejemplos para gestionar Errores
  * https://til.hashrocket.com/posts/aucwkd8b36-asyncawait-unhandledpromiserejectionwarning

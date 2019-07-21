@@ -1,16 +1,18 @@
 /**
-  * Ejemplo 1:
+  * Ejemplo 03: yield / next()
   *
+  * Descripción:
   * Generadores e Iteradores
   *
-**Recomendación:** Revisa este artículo para aprender un poco acerca de esta funcionalidad.
-[A Simple Guide to Understanding Javascript (ES6) Generators](https://medium.com/dailyjs/a-simple-guide-to-understanding-javascript-es6-generators-d1c350551950)
-
+  * Recomendación:** Revisa este artículo para aprender un poco acerca de esta funcionalidad.
+  * https://medium.com/dailyjs/a-simple-guide-to-understanding-javascript-es6-generators-d1c350551950
   *
+  *  How execute:
+  * $ node iterator/example03
+  * $ yarn iterator:example03
   */
 
- console.log('--> Ejemplo 1: Generadores e Iteradores')
- function * contar() {
+ function * contar() { // necesario para indicar que la función es un iterador.
     yield 1
     yield 2
     yield 3
@@ -21,8 +23,6 @@
  // el objeto de la primera itrración
  //console.log(contar().next())
  //console.log(contar().next())
-
-
 
  // Hay que invocarla realizando declaración
  let contador = contar()

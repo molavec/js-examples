@@ -6,6 +6,7 @@
  * que se requieran
  *
  * How execute:
+ * $ node function/example06
  * $ yarn function:example06
  */
 

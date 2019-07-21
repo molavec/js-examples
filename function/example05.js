@@ -8,6 +8,7 @@
  * como parámetros independientes.
  *
  * How execute:
+ * $ node function/example05
  * $ yarn function:example05
  */
 

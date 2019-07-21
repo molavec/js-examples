@@ -5,6 +5,7 @@
  * Permite a una función recibir una cantidad variable de parámetros
  *
  * How execute:
+ * $ node function/example04
  * $ yarn function:example04
  */
 
