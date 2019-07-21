@@ -12,6 +12,6 @@
  */
 
 let arr = [1,2,3,4,5,6,7]
-let spreadArr = [0, ...arr, 10]
+let spreadArr = [0, ...arr, 8]
 console.log(spreadArr)
 

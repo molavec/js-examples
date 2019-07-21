@@ -1,14 +1,14 @@
 /**
- * example1: Declaración de una clase
+ * example2: Herencia de clases
  *
  * Description:
  * Se declara la animal con 2 campos,
  * como clase padre.
- * 
+ *
  * Se declara la clase 'Domesticos' que
- * hereda de 'Animal', se incluye(obligatorio)
- * la funcion super() en el constructor de
- * la clase 'Domesticos'.
+ * hereda de 'Animal', se incluye
+ * la funcion super(), que es obligatoria,
+ * en el constructor de la clase 'Domesticos'.
  *
  * How execute:
  * $ node class/example02
