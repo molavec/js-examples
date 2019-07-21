@@ -1,17 +1,15 @@
 /**
- * example01:  if
+ * example01:  if en una línea (condición)? true : false;
  *
  * Description:
- * Muestra como hacer ejemplos de como utilizar if
+ * Muestra como hacer un if en una línea
  *
  * How execute:
  * $ node condicionales/example02
  * $ yarn condicionales:example02
  */
 
-// 1- Ejemplo if en una línea
 console.log((true) ? "Acá es 'true'" : "Acá es 'false'");
 console.log((false) ? "Acá es 'true'" : "Acá es 'false'");
 
-// 1- Ejemplo if de if clásico
 
