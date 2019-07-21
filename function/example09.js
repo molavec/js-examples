@@ -1,5 +1,5 @@
 /**
- * example08: Operaciones matemáticas en Función 
+ * example08: Operaciones matemáticas en Función
  *
  * Description:
  * Un buen resumen de operaciones matemáticas básicas
@@ -23,11 +23,12 @@
  */
 
 // 1.- invoca a la función sin argumentos
+
 ((text) => {
   console.log(text || 'Texto retornado desde una función anónima!! yeeeiiiiishhhh!!')
-})()
+})(); // <-- es importante utilizar el punto y coma (;) ya que no se autoañade.
 
 // 2.- invoca a la función con argumento "hola"
 ((text) => {
   console.log(text || 'Texto retornado desde una función anónima!! yeeeiiiiishhhh!!')
-})("hola")
+})("hola"); // <-- es importante utilizar el punto y coma (;) ya que no se autoañade.
