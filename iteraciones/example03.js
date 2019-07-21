@@ -7,6 +7,9 @@
   * Recomendación:** Revisa este artículo para aprender un poco acerca de esta funcionalidad.
   * https://medium.com/dailyjs/a-simple-guide-to-understanding-javascript-es6-generators-d1c350551950
   *
+  *  How execute:
+  * $ node iterator/example03
+  * $ yarn iterator:example03
   */
 
  function * contar() { // necesario para indicar que la función es un iterador.
