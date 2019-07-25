@@ -13,7 +13,7 @@ Ningurno. Opcionalmente [**yarn**](https://yarnpkg.com/es-ES/) o [**npm**](https
 En tres simples pasos:
 
 1. Revisa este documento o mediante el buscador de tu IDE preferido busca si existe un ejemplo de lo que quieras prácticar o simplemente revisa los ejemplos disponibles
-2. Revisa los mentarios
+2. Revisa los comentarios
 3. Diviértete modificando todo lo que quieras y Ejecuta!
 
 
@@ -28,7 +28,6 @@ yarn array:example02 # Destructuring (extraer valores de un arreglo a variables)
 yarn array:example03 # Destructuring con y sin 'punto y coma' (;)
 yarn array:example04 # Destructuring utilizando operador rest
 yarn array:example05 # Destructuring para reordenar
-yarn array
 yarn class
 yarn function:example01 # Function Declataration
 yarn function:example02 # Function Expression
@@ -41,7 +40,8 @@ yarn function:example08 # Short Circuit
 yarn function:example09 # Invocación de Función anónima
 yarn function:example10 # Declaración de un callback
 yarn iterator
-yarn object
+yarn object:example01 # Destructiración de objetos
+yarn object:example01 # Listar métodos de un objeto
 yarn promise
 yarn stream
 yarn variable

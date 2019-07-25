@@ -37,7 +37,8 @@
     "iteraciones:example03": "node iteraciones/example03",
     "iteraciones:example04": "node iteraciones/example04",
 
-    "object:example1": "node object/example1",
+    "object:example01": "node object/example01",
+    "object:example02": "node object/example02",
 
     "promise:example01": "node promise/example01",
     "promise:example02": "node promise/example02",
@@ -48,6 +49,12 @@
     "promise:example07": "node promise/example07",
     "promise:example08": "node promise/example08",
     "promise:example09": "node promise/example09",
+
+    "scope:example01": "node scope/example01",
+    "scope:example02": "node scope/example02",
+    "scope:example03": "node scope/example03",
+    "scope:example04": "node scope/example04",
+    "scope:example05": "node scope/example05",
 
     "stream": "node stream",
     "variable:example01": "node variable/example01",

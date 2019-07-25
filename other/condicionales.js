@@ -3,8 +3,6 @@
  *
  * Description:
  * Ejemplos de operadores matemáticos y lógicos.
- * 
- * 
  *
  * How execute:
  * $ node variable/example01
@@ -37,7 +35,7 @@ console.log(uno > dos); // <, >, <=, >=, ==, !=
  *  y = &&
  *  o = ||
  *  negación = !
- * 
+ *
 */
 
 console.log( '!(uno==20) -----> uno=19 ----> y = &&, o = ||, negación = !' );
@@ -47,7 +45,7 @@ console.log( !(uno==20) );
 var uno = 30;
 // uno = uno - 20;
 // uno -= 20;
-uno *= 20; 
+uno *= 20;
 console.log(uno);
 
 */
