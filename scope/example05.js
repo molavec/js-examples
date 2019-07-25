@@ -1,8 +1,8 @@
 /**
-* example05: comportamiento 'let'
+* example05: comportamiento 'const'
 *
 * Description:
-* muestra ejemplos del comportamiento de 'let'
+* muestra ejemplos del comportamiento de 'const'
 * 'const' tiene un ambito (scope) a nivel de función, es decir,
 * la variable puede ser visible o modificada en el ambito de
 * la función que es declarada.

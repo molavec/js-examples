@@ -1,5 +1,5 @@
 /**
-* example01: Hoisting
+* example01: Hoisting en declaración de funciones
 *
 * Description:
 * Ejemplo de hoisting

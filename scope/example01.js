@@ -1,5 +1,5 @@
 /**
- * example01: Hoisting
+ * example01: Hoisting en declaración de variables
  *
  * Description:
  * Demuestra el fenomeno de hoisting

@@ -43,6 +43,11 @@ yarn iterator
 yarn object:example01 # Destructiración de objetos
 yarn object:example01 # Listar métodos de un objeto
 yarn promise
+yarn scope:example01 # Hoisting en declaración de variables
+yarn scope:example02 # Hoisting en declaración de funciones
+yarn scope:example03 # comportamiento 'var (hoisting)'
+yarn scope:example04 # comportamiento 'let'
+yarn scope:example05 # comportamiento 'const'
 yarn stream
 yarn variable
 ```
