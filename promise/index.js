@@ -7,6 +7,8 @@ const { normalTask, delayTask, callbackTask, callbackDelayTask, asyncTaskPromise
  *
  * Se obtiene el nombre del task el que es retornado mediante la función.
  * En este ejemplo todo es sincrónico, es decir, se ejecuta secuencialmente.
+ * Recomendación: Revisa este video para aprender un poco acerca de esta funcionalidad.
+ * Javascript Async Await, Promesas y Callbacks - https://www.youtube.com/watch?v=Q3HtXuDEy5s
  *
  */
 console.log('--> Ejemplo 1:')
@@ -106,5 +108,35 @@ let main2 = async () => {
   console.log('Ejemplo 8: Se obtiene el valor mediante await: ' + returnedValue)
 }
 main2()
+
+/**
+ * Ejemplos para gestionar Errores
+ * https://til.hashrocket.com/posts/aucwkd8b36-asyncawait-unhandledpromiserejectionwarning
+ *
+ */
+
+promise13 = () => {
+  return new Promise((resolve, reject) => { reject(13)})
+}
+
+(async () => {
+  let num = await promise13(); // UnhandledPromiseRejectionWarning
+  console.log('num', num);
+})();
+
+(async () => {
+  try {
+    let num = await promise13();
+    console.log('num', num);
+  } catch(e) {
+    console.log('Error caught');
+  }
+})();
+
+(async () => {
+  let num = await promise13().catch((err) => console.log('caught it'));
+  console.log('num', num);
+})();
+
 
 console.log('--> Final')

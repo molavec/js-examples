@@ -1,87 +1,57 @@
 # js-examples
 
-Ejemplos javascript
+Ejemplos para aprender Javascript fácilmente.
 
-## How-to
-Revisa los comentarios del código, ejecuta y modifica el código para aprender y descubrir como funcionan funcionalidades en javascript.
+La idea es mantener ejemplos simples de ejecutar y modificar para aprender mediante la ejecución de mini-programas.
+
+## Requerimientos
+
+Ningurno. Opcionalmente [**yarn**](https://yarnpkg.com/es-ES/) o [**npm**](https://www.npmjs.com/) para facilitar la ejecución de algunas comandos o instalación de dependencias.
+
+## Como utilizar
+
+En tres simples pasos:
+
+1. Revisa este documento o mediante el buscador de tu IDE preferido busca si existe un ejemplo de lo que quieras prácticar o simplemente revisa los ejemplos disponibles
+2. Revisa los mentarios
+3. Diviértete modificando todo lo que quieras y Ejecuta!
+
 
 # Ejemplos disponibles
 
-## /arguments-from-terminal
-Prueba como pasar argumentos desde el terminal.
+Estos son los ejemplos que hay disponibles:
 
 ```bash
-node arguments-from-terminal one two=three four
+yarn argument:example1 # Argumentos desde terminal
+yarn array:example01 # Operador Spread
+yarn array:example02 # Destructuring (extraer valores de un arreglo a variables)
+yarn array:example03 # Destructuring con y sin 'punto y coma' (;)
+yarn array:example04 # Destructuring utilizando operador rest
+yarn array:example05 # Destructuring para reordenar
+yarn array
+yarn class
+yarn function:example01 # Function Declataration
+yarn function:example02 # Function Expression
+yarn function:example03 # Función como método de un objeto
+yarn function:example04 # Operador rest
+yarn function:example05 # Operador spread (Caso especial)
+yarn function:example06 # Destructuración de objetos
+yarn function:example07 # Parámetros por defecto
+yarn function:example08 # Short Circuit
+yarn function:example09 # Invocación de Función anónima
+yarn function:example10 # Declaración de un callback
+yarn iterator
+yarn object
+yarn promise
+yarn stream
+yarn variable
 ```
 
-## /scope
-Prueba como funciona el scope en javascript
-
-```bash
-node scope
-```
-
-## /functions-examples
-Ejemplos de formas de definir funciones
-
-```bash
-node functions-examples
-```
-
-
-## /arreglos
-Ejemplos para el manejo con arreglos
-
-```bash
-node arreglos
-```
-
-## /objetos
-Ejemplos para el manejo de objetos
-
-```bash
-node objetos
-```
-
-
-## /async-await
-
-**Recomendación:** Revisa este video para aprender un poco acerca de esta funcionalidad.
-[Javascript Async Await, Promesas y Callbacks](https://www.youtube.com/watch?v=Q3HtXuDEy5s)
-
-Revisa pasa a paso cada uno de los ejemplos para descubrir como funciona la funcionalidad de async y await.
-
-```bash
-node async-await
-```
-
-**Nota:** Es posible que debas aprender un poco como funcionan las promesas pero no es inidispensable. Incluso podrías pobrar como funcionan las promesas en este código de ejemplo.
-
-
-## /generator-iterator
-
-**Recomendación:** Revisa este artículo para aprender un poco acerca de esta funcionalidad.
-[A Simple Guide to Understanding Javascript (ES6) Generators](https://medium.com/dailyjs/a-simple-guide-to-understanding-javascript-es6-generators-d1c350551950)
-Ejemplos de de generadores iteradores
-
-```bash
-node generator-iterator
-```
-
-## /stream
-
-**Recomendación:** Revisa este artículo para aprender un poco acerca de esta funcionalidad.
-[Node.js Streams: Everything you need to know](https://medium.freecodecamp.org/node-js-streams-everything-you-need-to-know-c9141306be93)
-
-Revisa pasa a paso cada uno de los ejemplos para descubrir como funcionan los stream en node, utilices para procesar gran cantidad de datos.
-
-```bash
-node stream
-```
 
 # ¿Te sientes con ganas de más?
 
 Aquí puedes encontrar otras fuentes interesantes de información y herramientas.
 
-Bibliotecas de módulos y recursos:
+* Bibliotecas de módulos y recursos:
 https://github.com/sindresorhus/awesome-nodejs
+
