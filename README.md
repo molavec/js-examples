@@ -28,7 +28,8 @@ yarn array:example02 # Destructuring (extraer valores de un arreglo a variables)
 yarn array:example03 # Destructuring con y sin 'punto y coma' (;)
 yarn array:example04 # Destructuring utilizando operador rest
 yarn array:example05 # Destructuring para reordenar
-yarn class
+yarn class:example01 # Declaración de una clase
+yarn class:example02 # Herencia de clases
 yarn function:example01 # Function Declataration
 yarn function:example02 # Function Expression
 yarn function:example03 # Función como método de un objeto
@@ -39,7 +40,10 @@ yarn function:example07 # Parámetros por defecto
 yarn function:example08 # Short Circuit
 yarn function:example09 # Invocación de Función anónima
 yarn function:example10 # Declaración de un callback
-yarn iterator
+yarn iteraciones:example01 # For - tradicional, of, in
+yarn iteraciones:example02 # while / do-while
+yarn iteraciones:example03 # yield / next()
+yarn iteraciones:example04 # continue / break
 yarn object:example01 # Destructiración de objetos
 yarn object:example01 # Listar métodos de un objeto
 yarn promise
