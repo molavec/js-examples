@@ -5,8 +5,8 @@
 *  Agrega a un arreglo los items de otro adicionalmente
 *
 * How execute:
-* $ node scope/ filename.js
-* $ node yarn: filename
+* $ node array/example07.js
+* $ yarn array:example07
 *
 */
 
