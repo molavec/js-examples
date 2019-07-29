@@ -7,7 +7,7 @@
 *  como parámetro.
 *
 * How execute:
-* $ node array/example08.js
+* $ node array/example08.js hola mundo
 * $ yarn array:example08
 *
 */
@@ -17,4 +17,5 @@
 var names = ['Shane', 'Alan', 'Osbourne'];
 // console.log(names[0] + " " + names[1] + " " + names[2]);
 console.log(names.join(' '));
+console.log(names.join(', '));
 

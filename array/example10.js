@@ -1,20 +1,21 @@
 /**
-*  filename:  Array.prototype.join();
+*  filename:  Array.prototype.split();
 *
 * Description:
-*  Une los elementos de un arreglo
-*  separándolos por un caracter dado
-*  como parámetro.
+* Separa un string en un arreglo de subtring utilizando
+* el argumento como separador
 *
 * How execute:
-* $ node array/example10.js 
+* $ node array/example10.js
 * $ yarn array:example10
 *
 */
 
 var name = 'shane osbourne';
-var upper = name.split(' ') // [shane, osbourne]
-    .map(x => x.charAt(0).toUpperCase() + x.slice(1)) // [Shane, Osbourne]
-    .join(' ');
+var array = name.split(' ')
+console.log(array)
 
+// Ejemplo de uso
+let upper = array.map(x => x.charAt(0).toUpperCase() + x.slice(1)) // [Shane, Osbourne]
+    .join(' ');
 console.log(upper);

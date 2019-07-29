@@ -2,7 +2,8 @@
 *  filename:  Array concat (concatenación)
 *
 * Description:
-*  Agrega a un arreglo los items de otro adicionalmente
+* Genera un nuevo arreglo con el contenido de dos o más
+* objetos
 *
 * How execute:
 * $ node array/example06.js
@@ -28,15 +29,5 @@ var people2 = [
     }
 ];
 
-people
-    .concat(people2)
-    .forEach(function (person) {
-    console.log(person.name);
-});
-
-/*
-people2.forEach(function (person) {
-    console.log(person.name);
-});
-*/
-
+let result = people.concat(people2, 3, 'hola')
+console.log(result)

@@ -3,7 +3,7 @@
   "version": "1.1.0",
   "license": "MIT",
   "scripts": {
-    "argument:example1": "node argument/example1 hello world!",
+    "argument:example01": "node argument/example01 hello world!",
 
     "array:example01": "node array/example01",
     "array:example02": "node array/example02",
@@ -13,7 +13,7 @@
     "array:example06": "node array/example06",
     "array:example07": "node array/example07",
     "array:example08": "node array/example08",
-    "array:example09": "node array/example09",
+    "array:example09": "node array/example09 help",
     "array:example10": "node array/example10",
     "array:example11": "node array/example11",
     "array:example12": "node array/example12",

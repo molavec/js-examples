@@ -6,7 +6,7 @@
 *  formato dado.
 *
 * How execute:
-* $ node array/example25.js 
+* $ node array/example25.js
 * $ yarn array:example25
 *
 */
