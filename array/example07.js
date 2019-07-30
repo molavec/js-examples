@@ -10,11 +10,8 @@
 *
 */
 
-
-
 var items = [1, 2];
-// var newItems = items.concat(3, 4, 5, 'string', undefined);
-var newItems = items.concat([3,4], [5,6,7], 8);
+var newItems = items.concat([3,4], [5, [6],7], 8);
 
 console.log(newItems);
 

@@ -6,7 +6,7 @@
 *  si la búsqueda falla, retorna -1
 *
 * How execute:
-* $ node array/example11.js 
+* $ node array/example11.js
 * $ yarn array:example11
 *
 */
