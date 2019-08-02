@@ -69,6 +69,7 @@
 
     "object:example01": "node object/example01",
     "object:example02": "node object/example02",
+    "object:example03": "node object/example03",
 
     "promise:example01": "node promise/example01",
     "promise:example02": "node promise/example02",

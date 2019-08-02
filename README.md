@@ -77,8 +77,11 @@ yarn iteraciones:example01 # For - tradicional, of, in
 yarn iteraciones:example02 # while / do-while
 yarn iteraciones:example03 # yield / next()
 yarn iteraciones:example04 # continue / break
+
 yarn object:example01 # Destructiración de objetos
-yarn object:example01 # Listar métodos de un objeto
+yarn object:example02 # Listar métodos de un objeto
+yarn object:example03 # Operador delete
+
 yarn promise
 yarn scope:example01 # Hoisting en declaración de variables
 yarn scope:example02 # Hoisting en declaración de funciones
