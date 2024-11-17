@@ -3,21 +3,18 @@
   "version": "1.1.0",
   "license": "MIT",
   "scripts": {
+    "test": "vitest",
     "argument:example1": "node argument/example1 hello world!",
-
     "array:example01": "node array/example01",
     "array:example02": "node array/example02",
     "array:example03": "node array/example03",
     "array:example04": "node array/example04",
     "array:example05": "node array/example05",
-
     "class:example01": "node class/example01",
     "class:example02": "node class/example02",
     "class:example03": "node class/example03",
-
     "condicionales:example01": "node condicionales/example01",
     "condicionales:example02": "node condicionales/example02",
-
     "function": "node function",
     "function:example01": "node function/example01",
     "function:example02": "node function/example02",
@@ -31,14 +28,11 @@
     "function:example10": "node function/example10",
     "function:example11": "node function/example11",
     "function:example11b": "node function/example11b",
-
     "iteraciones:example01": "node iteraciones/example01",
     "iteraciones:example02": "node iteraciones/example02",
     "iteraciones:example03": "node iteraciones/example03",
     "iteraciones:example04": "node iteraciones/example04",
-
     "object:example1": "node object/example1",
-
     "promise:example01": "node promise/example01",
     "promise:example02": "node promise/example02",
     "promise:example03": "node promise/example03",
@@ -48,9 +42,11 @@
     "promise:example07": "node promise/example07",
     "promise:example08": "node promise/example08",
     "promise:example09": "node promise/example09",
-
     "stream": "node stream",
     "variable:example01": "node variable/example01",
     "variable": "node variable"
+  },
+  "devDependencies": {
+    "vitest": "^2.1.5"
   }
 }

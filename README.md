@@ -6,7 +6,7 @@ La idea es mantener ejemplos simples de ejecutar y modificar para aprender media
 
 ## Requerimientos
 
-Ningurno. Opcionalmente [**yarn**](https://yarnpkg.com/es-ES/) o [**npm**](https://www.npmjs.com/) para facilitar la ejecución de algunas comandos o instalación de dependencias.
+Ninguno. Opcionalmente [**yarn**](https://yarnpkg.com/es-ES/) o [**npm**](https://www.npmjs.com/) para facilitar la ejecución de algunas comandos o instalación de dependencias.
 
 ## Como utilizar
 
