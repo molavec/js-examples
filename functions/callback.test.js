@@ -1,29 +1,16 @@
-/**
- * example 10: Declaración de un callback
- *
- * Description:
- * Funcióm que recibe otra función como argumento.
- *
- * How execute:
- * $ node function/example10
- * $ yarn function:example10
- */
-
+import { expect, test } from "vitest"
 
 /**
  * Suma todos los argumentos ingresados como parámetros
- *
  * @param  {...any} valores valor a ser sumados
  */
 const sumar = (...valores) => {
   let resultado = 0
 
   valores.forEach((valor) => {
-    //console.log(valor)
     resultado += valor
   })
 
-   //console.log(valores) //<-- Entrega los valores como un arreglo
   return resultado
 }
 
@@ -32,7 +19,7 @@ const sumar = (...valores) => {
  * @param {*} a Primer valor
  * @param {*} b Segundo valor
  */
-const mult = (a, b) => a * b
+const multiplicar = (a, b) => a * b
 
 /**
  * Imprime los valores ingresados y
@@ -44,11 +31,13 @@ const mult = (a, b) => a * b
  *                      y debe retornar el resultado
  */
 let mathOperation = (callback, ...valores) => {
-  valores.forEach((valor, index)=>{
-    console.log(`El item ${index} es: ${valor}`)
-  })
-  console.log(`El resultado de la operación matemática es: ${callback(...valores)}`)
+  return callback(...valores)
 }
 
-mathOperation(sumar, 1, 2, 3, 4)
-mathOperation(mult, 4, 2)
+test('Ejecuta el calback con la función sumar', ()=>{
+  expect(mathOperation(sumar, 1, 2, 3)).toBe(6)
+})
+
+test('Ejecuta el calback con la función multiplicar', ()=>{
+  expect(mathOperation(multiplicar, 1, 2)).toBe(2)
+})
