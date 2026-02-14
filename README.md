@@ -59,6 +59,9 @@ Vitest es un framework de pruebas unitarias de última generación impulsado por
 Es compatible con la API de Jest, lo que facilita su uso si ya tienes experiencia con testing en Javascript.
 Se ha elegido para este proyecto por su velocidad y simplicidad de configuración:
 https://vitest.dev/guide/
+https://jestjs.io/docs/getting-started
+https://jestjs.io/docs/api
+
 
 # ¿Te sientes con ganas de más?
 
