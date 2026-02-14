@@ -3,19 +3,12 @@
   "version": "1.1.0",
   "license": "MIT",
   "scripts": {
-<<<<<<< HEAD
     "argument:example01": "node argument/example01 hello world!",
-
-=======
-    "test": "vitest",
-    "argument:example1": "node argument/example1 hello world!",
->>>>>>> master
     "array:example01": "node array/example01",
     "array:example02": "node array/example02",
     "array:example03": "node array/example03",
     "array:example04": "node array/example04",
     "array:example05": "node array/example05",
-<<<<<<< HEAD
     "array:example06": "node array/example06",
     "array:example07": "node array/example07",
     "array:example08": "node array/example08",
@@ -46,9 +39,6 @@
     "array:example33": "node array/example33",
     "array:example34": "node array/example34",
     "array:example35": "node array/example35",
-
-=======
->>>>>>> master
     "class:example01": "node class/example01",
     "class:example02": "node class/example02",
     "class:example03": "node class/example03",
@@ -71,14 +61,8 @@
     "iteraciones:example02": "node iteraciones/example02",
     "iteraciones:example03": "node iteraciones/example03",
     "iteraciones:example04": "node iteraciones/example04",
-<<<<<<< HEAD
-
     "object:example01": "node object/example01",
     "object:example02": "node object/example02",
-
-=======
-    "object:example1": "node object/example1",
->>>>>>> master
     "promise:example01": "node promise/example01",
     "promise:example02": "node promise/example02",
     "promise:example03": "node promise/example03",
@@ -88,21 +72,16 @@
     "promise:example07": "node promise/example07",
     "promise:example08": "node promise/example08",
     "promise:example09": "node promise/example09",
-<<<<<<< HEAD
-
     "scope:example01": "node scope/example01",
     "scope:example02": "node scope/example02",
     "scope:example03": "node scope/example03",
     "scope:example04": "node scope/example04",
     "scope:example05": "node scope/example05",
-
-=======
->>>>>>> master
     "stream": "node stream",
     "variable:example01": "node variable/example01",
     "variable": "node variable"
   },
   "devDependencies": {
-    "vitest": "^2.1.5"
+    "vitest": "^4.0.18"
   }
 }
