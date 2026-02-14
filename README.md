@@ -2,12 +2,13 @@
 
 Ejemplos para aprender Javascript fácilmente.
 
-La idea es mantener ejemplos simples de ejecutar y modificar para aprender mediante la ejecución de mini-programas.
+La idea es mantener ejemplos simples de ejecutar y modificar para aprender mediante la ejecución de funciones utilizando [vitest](https://vitest.dev).
 
-## Requerimientos
+## How To
 
-Ningurno. Opcionalmente [**yarn**](https://yarnpkg.com/es-ES/) o [**npm**](https://www.npmjs.com/) para facilitar la ejecución de algunas comandos o instalación de dependencias.
+1. Instala las dependencias
 
+<<<<<<< HEAD
 ## Como utilizar
 
 En tres simples pasos:
@@ -87,8 +88,19 @@ yarn scope:example04 # comportamiento 'let'
 yarn scope:example05 # comportamiento 'const'
 yarn stream
 yarn variable
+=======
+```bash 
+npm install
+>>>>>>> master
 ```
 
+2. Ejecuta vitest
+
+```bash 
+npm run test
+```
+
+3. Analiza los distintos códigos y sus pruebas unitarias.
 
 # ¿Te sientes con ganas de más?
 
